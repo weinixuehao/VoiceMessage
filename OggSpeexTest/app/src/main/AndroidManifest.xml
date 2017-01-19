@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jigao.oggspeextest">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:process=".application"
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/door_lock_icon_1"
+        android:label="@string/lib_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="jigao.oggspeextest.BaseReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.chenlong.demo.TestService"
+            android:process=":worker"/>
+    </application>
+
+</manifest>

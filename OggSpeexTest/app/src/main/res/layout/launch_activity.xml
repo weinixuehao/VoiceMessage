@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:speex="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LaunchActivity">
+
+    <com.gauss.view.RecorderButton
+        android:id="@+id/recorderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/record_btn"
+        android:entries="@array/default_record_btn_text"
+        android:gravity="center"
+        speex:recording_dialog_background="@drawable/recording_back"
+        speex:recording_dialog_texts="@array/recording_dialog_texts"
+        speex:recording_dialog_tv_color="@color/white"
+        speex:recording_dialog_volume_cancel_icon="@mipmap/cancel_record_voice"
+        speex:recording_dialog_volume_size_icon="@drawable/pop_voice_icon" />
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/recorderButton"
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放录制好的语音消息" />
+
+</RelativeLayout>

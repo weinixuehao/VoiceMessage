@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OggSpeexTest</string>
+    <string name="up_slide_cancel">上滑取消</string>
+    <string name="undo_cancel">松开取消</string>
+</resources>

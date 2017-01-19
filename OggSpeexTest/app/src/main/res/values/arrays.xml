@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_record_btn_text">
+        <item>按住说话</item>
+        <item>松开发送</item>
+    </string-array>
+
+    <string-array name="recording_dialog_texts">
+        <item>@string/up_slide_cancel</item>
+        <item>@string/undo_cancel</item>
+    </string-array>
+</resources>
