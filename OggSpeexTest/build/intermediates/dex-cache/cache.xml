@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ab74730835c34d7e344860761b011db9e7e920de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_e60fb1415d5119b4896d9d011a67496ece1ac5f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/exploded-aar/OggSpeexTest/OggSpeex-android/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6973b37ca98eeb19636e17f4ea8d0886ea348456">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/OggSpeexTest-OggSpeex-android-unspecified_f6847537b7fbee51702b305156541883f59efbb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_c88e1783382019eeb9119ad0ea131b40d7bc491e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_cca767c4cd90db8f54be97be25af178fa4958eab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/exploded-aar/OggSpeexTest/OggSpeex-android/unspecified/jars/libs/slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f5aafed7f5a3f1f1028774f7d5f1fed626bc8c8f">
+        <dex dex="/Users/user/Documents/workspace/OggSpeexTest/app/build/intermediates/pre-dexed/debug/slf4j-android-1.6.1-RC1_26df7692dade7f6cd16a089173c7f875b3e1aa96.jar" />
+    </item>
+
+</items>
